@@ -1,8 +1,4 @@
--- ===============================================
--- 🍕 Pizza Sales Analysis Project using MySQL
 
-
--- ===============================================
 
 USE pizza_db;
 
@@ -155,4 +151,5 @@ FROM (
     GROUP BY pt.category, pt.name
 ) AS ranked
 WHERE rank_ <= 3;
+
 
