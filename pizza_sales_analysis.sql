@@ -1,7 +1,7 @@
 -- ===============================================
 -- 🍕 Pizza Sales Analysis Project using MySQL
--- Author: Yokesh Kumar Sundararaman
--- GitHub: https://github.com/yokeshdxb/Mini_project_Pizza_DB.git
+
+
 -- ===============================================
 
 USE pizza_db;
@@ -155,3 +155,4 @@ FROM (
     GROUP BY pt.category, pt.name
 ) AS ranked
 WHERE rank_ <= 3;
+
